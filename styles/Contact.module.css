@@ -1,0 +1,25 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    height: calc(100vh - 5rem);
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h2{
+    margin: 0.3rem 0;
+}
+
+.main h2 span{
+    background-color: yellow;
+    padding: 0 1rem;
+    margin: 0 0.3rem;
+}
