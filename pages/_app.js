@@ -10,7 +10,9 @@ function MyApp({ Component, pageProps }) {
       strategy="lazyOnload"
         src={"https://www.googletagmanager.com/gtag/js?id=G-GTSMJHETRL"}
     />
-    <Script strategy="lazyOnload">
+    <Script
+        id="my-script2"
+        strategy="lazyOnload">
       {
         `
         window.dataLayer = window.dataLayer || [];
