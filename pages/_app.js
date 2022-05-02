@@ -6,6 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <Script 
+      id="my-script"
       strategy="lazyOnload"
         src={"https://www.googletagmanager.com/gtag/js?id=G-GTSMJHETRL"}
     />
