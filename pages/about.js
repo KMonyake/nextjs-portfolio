@@ -35,7 +35,6 @@ export default function about() {
                     <li>Mongodb</li>
                 </ul>
                 <h2 className={heading}>Education</h2>
-                <p className={listedItem}>Kroonstad High School</p>
                 <p className={listedItem}>HyperionDev</p>
             </main>
         </div>
